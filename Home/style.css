@@ -1,0 +1,180 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.a-links a {
+
+    color: white;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.7s;
+    letter-spacing: 2px;
+
+}
+
+.a-links a:hover {
+    transform: translateX(0);
+
+}
+
+.a-links a:hover::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: rgb(175, 172, 172);
+    bottom: -32px;
+    left: 5px;
+
+}
+
+
+
+
+header {
+    width: 750px;
+    height: 80px;
+    color: #fff;
+    backdrop-filter: blur(15px);
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    margin-top: 25px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    text-decoration: 1px;
+
+}
+
+
+
+
+span {
+    color: white;
+    right: 0;
+    font-weight: bold;
+    padding: 3px;
+
+}
+
+img {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.header {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    top: 25px;
+    left: 22px;
+    bottom: 15px;
+    border-radius: 50%;
+    z-index: -1;
+    background-image: url(simbolo.png);
+    margin-top: 17px;
+}
+
+.linha {
+
+    border-bottom: 1px solid;
+    color: gray;
+    width: 500px;
+    position: fixed;
+    margin-top: 65px;
+    opacity: 0.5px;
+    right: 710px;
+
+}
+
+
+.apresentaçao {
+
+    color: white;
+    position: fixed;
+    top: 220px;
+    left: 120px;
+}
+
+.apresentaçao p {
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+.apresentaçao h1 {
+    font-size: 28px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.apresentaçao h2 {
+
+    font-size: 150px;
+    font-family: "Bellefair", serif;
+    font-style: regular;
+}
+
+.explore {
+
+    width: 274px;
+    height: 274px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 50%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+
+}
+
+.explore:hover {
+
+   
+    box-shadow: 0 0 10px gray,
+        0 0 30px gray,
+        0 0 60px gray,
+        0 0 110px gray;
+    ;
+
+
+}
